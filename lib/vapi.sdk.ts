@@ -1,9 +1,3 @@
-import React from 'react'
+import Vapi from "@vapi-ai/web";
 
-const  = () => {
-  return (
-    <div></div>
-  )
-}
-
-export default 
+export const vapi = new Vapi(process.env.NEXT_PUBLIC_VAPI_WEB_TOKEN!);
